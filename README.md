@@ -110,8 +110,7 @@ Spring Data JPA là một framework Java nằm trong Spring Framework, cung cấ
 
 ## Chi tiết các thư mục:
 
-<img src="![hinh3](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/bedc692a-da74-4565-9888-0cd2159af31b)
-" min-width="400px" max-width="400px" width="400px" align="right">
+![hinh3](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/233adc4b-c4a2-4469-87f8-0baea1961a5d)
 
 <p align="left"> 
 Thư mục API: chứa các API tương tác với brand, giỏ hàng, sản phẩm,…
