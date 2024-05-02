@@ -8,7 +8,9 @@
 
 **Thymeleaf:**
 Thymeleaf là một công cụ xử lý template phía máy chủ được viết bằng Java. Nó có thể được sử dụng cho cả môi trường web và non-web, với khả năng xử lý HTML, XML, JavaScript, CSS và văn bản thuần túy. Mục tiêu chính của Thymeleaf là cung cấp các template tự nhiên, đồng nhất, đơn giản (nature templates) và dễ dàng bảo trì.
-<space>**Spring Boot:**<space>
+
+
+**Spring Boot:**
 Spring Boot là một framework Java giúp đơn giản hóa việc phát triển các ứng dụng web Spring. Nó cung cấp một loạt các tính năng tự động hóa, bao gồm cấu hình tự động, khởi động nhúng và tích hợp với các thư viện phổ biến.
 
 Sự kết hợp giữa Thymeleaf và Spring Boot tạo ra một giải pháp mạnh mẽ và linh hoạt cho việc phát triển các ứng dụng web Java giúp:
@@ -140,8 +142,12 @@ Thư mục resource/templates: Chứa các layout.
 
 2. Import data đã cung cấp để có dữ liệu.
 3. Sử dụng tài khoảng trong database để đăng nhập.
-   <space>Username: admin1@gmail.com<space>
-   <space>Password: 12345<space>
+
+   
+   Username: admin1@gmail.com
+
+   
+   Password: 12345
 
 # API trong ứng dụng:
 
