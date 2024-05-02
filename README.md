@@ -340,22 +340,42 @@ Cấu hình bảo mật web bằng cách sử dụng HttpSecurity:
 
 -   `http.csrf(csrf -> csrf.disable())`: Vô hiệu hóa bảo vệ Cross-Site Request Forgery (CSRF).
 -   `authorizeHttpRequests((authorize) -> { ... })`: Cấu hình các quy tắc cho phép đối với các mẫu URL khác nhau:
+
+  
     `.requestMatchers("/checkout").authenticated()`: Yêu cầu xác thực cho mẫu URL "/checkout".
+
+    
     `.anyRequest().permitAll()`: Cho phép truy cập vào tất cả các URL khác mà không cần xác thực.
 -   `formLogin(form -> form. ... )`: Cấu hình đăng nhập dựa trên biểu mẫu:
+
+  
     `.loginPage("/login")`: Đặt URL trang đăng nhập thành "/login".
+
+    
     `.loginProcessingUrl("/login")`: Chỉ định URL mà trình duyệt sẽ POST dữ liệu biểu mẫu đăng nhập.
+
+    
     `.defaultSuccessUrl("/")`: Chuyển hướng người dùng đến thư mục gốc ("/") sau khi đăng nhập thành công.
+
+    
     `.permitAll()`: Cho phép mọi người truy cập vào trang đăng nhập.
 -   `logout(logout -> logout. ... )`: Cấu hình chức năng đăng xuất:
+
+  
     `.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))`: Đặt mẫu URL để bắt đầu đăng xuất ("/logout").
+
+    
     `.permitAll()`: Cho phép mọi người truy cập vào URL đăng xuất.
 
 Phương thức configureGlobal:
 
 -   Một phương thức @Autowired nhận một đối tượng AuthenticationManagerBuilder làm đầu vào.
 -   Cấu hình xác thực người dùng bằng cách sử dụng AuthenticationManagerBuilder:
+
+  
     `.userDetailsService(userDetailsService)`: Cho Spring Security biết sử dụng userDetailsService được tiêm để truy xuất chi tiết người dùng để xác thực.
+
+    
     `.passwordEncoder(passwordEncoder())`: Đặt PasswordEncoder được sử dụng để băm mật khẩu (được tạo trong phương thức bean passwordEncoder).
 
 # Unit Test
