@@ -293,35 +293,42 @@ Description: API cho phép xem hóa đơn đã thanh toán.
 # Demo
 
 ![hinh18](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/bd020029-686b-4ebd-8a35-a18b4a6e005c)
+
+
 Giao diện Login
 
-
 ![hinh19](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/eb300759-5483-4648-934e-9e37200e0170)
-Giao diện đăng ký.
 
+
+Giao diện đăng ký.
 
 ![hinh20](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/1380bbc5-fc39-4803-b959-64ae1aed3d94)
 ![hinh21](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/b3216723-d118-4046-ad8c-67a9945c87c8)
 ![hinh22](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/0eeda58f-552e-4bf7-8d95-56dbb02074fa)
+
+
 Giao diện chính của hệ thống.
 
-
 ![hinh23](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/889ce3d8-ea69-4458-9215-e54b8636fac6)
+
+
 Giao diện giỏ hàng.
 
-
 ![hinh24](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/1cd290ab-cc42-405f-bdd7-a57716282b82)
+
+
 Giao diện khi hoàn tất thanh toán.
 
-
 ![hinh25](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/b8be524e-0731-419e-9ef1-028ea9546fe8)
-Giao diện lọc sản phẩm theo brand.
 
+
+Giao diện lọc sản phẩm theo brand.
 
 ![hinh26](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/073782b5-0f60-4976-aaec-c7f920a0b5e2)
 ![hinh27](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/fe467012-b45e-4b5d-a2e8-cc24ae1c1d44)
-Giao diện tìm kiếm sản phẩm
 
+
+Giao diện tìm kiếm sản phẩm
 
 # Giải thích về Security
 
