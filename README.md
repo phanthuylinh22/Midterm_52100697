@@ -90,11 +90,11 @@ Spring Data JPA là một framework Java nằm trong Spring Framework, cung cấ
 
 ## ERD:
 
-![image](hinh1.png)
+![hinh1](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/27d1c094-57b9-4085-be11-cbb56a39acdd)
 
 ## ERD mức vật lý:
 
-![image](hinh2.png)
+![hinh2](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/42d5007e-b95a-4fc4-9371-c21646b52307)
 
 ### Giải thích về ERD:
 
@@ -108,7 +108,8 @@ Spring Data JPA là một framework Java nằm trong Spring Framework, cung cấ
 
 ## Chi tiết các thư mục:
 
-<img src="hinh3.png" min-width="400px" max-width="400px" width="400px" align="right">
+<img src="![hinh3](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/bedc692a-da74-4565-9888-0cd2159af31b)
+" min-width="400px" max-width="400px" width="400px" align="right">
 
 <p align="left"> 
 Thư mục API: chứa các API tương tác với brand, giỏ hàng, sản phẩm,…
@@ -135,7 +136,7 @@ Thư mục resource/templates: Chứa các layout.
 
 1. Tạo CSDL trong MySQL: Midterm
 
-![image](hinh4.png)
+![hinh4](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/d91dae64-c342-499f-8eaf-565da0ab2796)
 
 2. Import data đã cung cấp để có dữ liệu.
 3. Sử dụng tài khoảng trong database để đăng nhập.
@@ -152,7 +153,7 @@ Endpoint:`http://localhost:8081/api/auth/register`
 
 Description: API cho phép người dùng đăng kí tài khoản.
 
-![image](hinh5.png)
+![hinh5](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/dd5613e6-5308-4da4-984e-a669e0ec5e82)
 
 ### Log in - Đăng nhập
 
@@ -162,7 +163,8 @@ Endpoint: `http://localhost:8081/api/auth/login`
 
 Description: API cho phép người dùng sử dụng tài khoản đã đăng kí để đăng nhập vào hệ thống.
 
-![image](hinh6.png)
+![hinh6](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/3e1070a9-c616-4a11-b697-392b11581f8f)
+
 
 ### Get Brand
 
@@ -171,7 +173,9 @@ Method: Get
 Endpoint: `http://localhost:8081/api/brands`
 
 Description: API cho phép lấy ra các brand và sản phẩm của nó có trong cửa hàng.
-![image](hinh7.png)
+
+![hinh7](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/2766b17a-1abf-40d4-97eb-0b0a6b991262)
+
 
 ### Create Brand
 
@@ -180,7 +184,9 @@ Method: Post
 Endpoint: `http://localhost:8081/api/brands/insert`
 
 Description: API cho phép tạo một brand mới.
-![image](hinh8.png)
+
+![hinh8](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/81d01f06-7984-4a64-be4a-01d91163abae)
+
 
 ### Create Product
 
@@ -189,7 +195,8 @@ Method: Post
 Endpoint:` http://localhost:8081/api/product/insert`
 
 Description: API cho phép tạo sản phẩm mới tương ứng với brand.
-![image](hinh9.png)
+![hinh9](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/202fa4e2-f6ed-44f5-bb51-bbe629a9e475)
+
 
 ### Get Product
 
@@ -198,7 +205,9 @@ Method: Get
 Endpoint:`http://localhost:8081/api/product`
 
 Description: API cho phép lấy ra tất cả các sản phẩm có trong cửa hàng.
-![image](hinh10.png)
+
+![hinh10](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/7ee5662e-91c9-45a3-9128-0367b922b49b)
+
 
 ### Get Product By ID
 
@@ -207,7 +216,9 @@ Method: Get
 Endpoint:`http://localhost:8081/api/product/1`
 
 Description: API cho phép tìm kiếm sản phẩm bằng id.
-![image](hinh11.png)
+
+![hinh11](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/bd8cc33d-481a-4817-8512-7f90ff984277)
+
 
 ### Delete Product
 
@@ -216,7 +227,9 @@ Method: Delete
 Endpoint:`http://localhost:8081/api/product/7`
 
 Description: API cho phép xóa sản phẩm bởi id.
-![image](hinh12.png)
+
+![hinh12](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/98db95c7-4994-4e47-b18e-c394ba8c969e)
+
 
 ### Show Cart
 
@@ -225,7 +238,9 @@ Method:Get
 Endpoint: `http://localhost:8081/api/cart`
 
 Description: API cho phép xem các sản phẩm có trong giỏ hàng.
-![image](hinh13.png)
+
+![hinh13](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/584b05d9-fed3-4e91-98d6-eb586f97f326)
+
 
 ### Add to Cart
 
@@ -234,7 +249,9 @@ Method: Post
 Endpoint: `http://localhost:8081/api/cart/add/2 `
 
 Description: API cho phép thêm sản phẩm vào giỏ hàng.
-![image](hinh14.png)
+
+![hinh14](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/3b9ae52d-2c23-41b4-a6b8-6ad49d1a310e)
+
 
 ### Minus product in Cart
 
@@ -243,7 +260,9 @@ Method: Put
 Endpoint: `http://localhost:8081/api/cart/minus/2 `
 
 Description: API cho phép giảm số lượng sản phẩm đã thêm vào giỏ hàng.
-![image](hinh15.png)
+
+![hinh15](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/cb02cf49-a98c-4921-b055-b6a6b1227e09)
+
 
 ### Delele item Cart
 
@@ -252,7 +271,8 @@ Method: Delete
 Endpoint: `http://localhost:8081/api/cart/remove/2 `
 
 Description: API cho phép xóa sản phẩm có trong giỏ hàng.
-![image](hinh16.png)
+
+![hinh16](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/7f2eb870-20db-42b7-ac20-840d1d5c4b0c)
 
 ### CheckOut
 
@@ -261,37 +281,38 @@ Method: Get
 Endpoint: `http://localhost:8081/api/cart/checkout `
 
 Description: API cho phép xem hóa đơn đã thanh toán.
-![image](hinh17.png)
+
+![hinh17](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/e45e14dc-cdd0-4d75-9087-ca52be834ef3)
 
 # Demo
 
-![image](hinh18.png)
+![hinh18](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/bd020029-686b-4ebd-8a35-a18b4a6e005c)
 Giao diện Login
 
-![image](hinh19.png)
+![hinh19](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/eb300759-5483-4648-934e-9e37200e0170)
 Giao diện đăng ký.
 
-![image](hinh20.png)
-![image](hinh21.png)
-![image](hinh22.png)
+![hinh20](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/1380bbc5-fc39-4803-b959-64ae1aed3d94)
+![hinh21](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/b3216723-d118-4046-ad8c-67a9945c87c8)
+![hinh22](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/0eeda58f-552e-4bf7-8d95-56dbb02074fa)
 Giao diện chính của hệ thống.
 
-![image](hinh23.png)
+![hinh23](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/889ce3d8-ea69-4458-9215-e54b8636fac6)
 Giao diện giỏ hàng.
 
-![image](hinh24.png)
+![hinh24](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/1cd290ab-cc42-405f-bdd7-a57716282b82)
 Giao diện khi hoàn tất thanh toán.
 
-![image](hinh25.png)
+![hinh25](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/b8be524e-0731-419e-9ef1-028ea9546fe8)
 Giao diện lọc sản phẩm theo brand.
 
-![image](hinh26.png)
-![image](hinh27.png)
+![hinh26](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/073782b5-0f60-4976-aaec-c7f920a0b5e2)
+![hinh27](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/fe467012-b45e-4b5d-a2e8-cc24ae1c1d44)
 Giao diện tìm kiếm sản phẩm
 
 # Giải thích về Security
 
-![image](hinh28.png)
+![hinh28](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/d4ee14b8-cfbf-456b-9026-eecb2279fdce)
 Định nghĩa một phương thức bean có tên filterChain nhận một đối tượng HttpSecurity làm đầu vào và trả về một đối tượng SecurityFilterChain.
 
 Cấu hình bảo mật web bằng cách sử dụng HttpSecurity:
@@ -320,7 +341,7 @@ Phương thức configureGlobal:
 
 ## Test Brand
 
-![image](hinh29.png)
+![hinh29](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/aad7565f-c1e7-43b8-b0ce-5cea56a81157)
 | STT | Test case | Description |Input| Expect output | Result|
 |---|---|---|---|---|---|
 | 1 | testGetBrandByID_NotFound()| Kiểm tra trường hợp không tìm thấy thương hiệu |Id| Không có thông tin nhãn hàng vì ID không tồn tại | Pass|
@@ -331,7 +352,7 @@ Phương thức configureGlobal:
 
 ## Test Cart
 
-![image](hinh30.png)
+![hinh30](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/09baab0c-e566-4a0c-909f-ad777f4fc106)
 | STT | Test case | Description |Input| Expect output | Result|
 |---|---|---|---|---|---|
 | 1 | testRemoveProductFromCart()| Xóa sản phẩm trong giỏ hàng|Id user, Id product| Các sản phẩm trong giỏ hàng bị xóa | Pass|
@@ -342,7 +363,7 @@ Phương thức configureGlobal:
 
 ## Test Product
 
-![image](hinh31.png)
+![hinh31](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/6d736172-3878-4d8f-a4d5-96911c87d319)
 | STT | Test case | Description |Input| Expect output | Result|
 |---|---|---|---|---|---|
 | 1 | testGetProductByIdNotFound()| Kiểm tra trường hợp không tìm thấy sản phẩm theo id|Id | Không tìm thấy dữ liệu sản phẩm| Pass|
@@ -352,7 +373,7 @@ Phương thức configureGlobal:
 
 ## Test User
 
-![image](hinh32.png)
+![hinh32](https://github.com/phanthuylinh22/Midterm_52100697/assets/146012513/cdc5d58d-555a-4f5b-91f3-0ad8b4052e41)
 | STT | Test case | Description |Input| Expect output | Result|
 |---|---|---|---|---|---|
 | 1 | testSaveUser()| Lưu 1 người dùng mới vào hệ thống|User | New user| Pass|
