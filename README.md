@@ -373,7 +373,7 @@ Phương thức configureGlobal:
 -   Cấu hình xác thực người dùng bằng cách sử dụng AuthenticationManagerBuilder:
 
   
-    `.userDetailsService(userDetailsService)`: Cho Spring Security biết sử dụng userDetailsService được tiêm để truy xuất chi tiết người dùng để xác thực.
+    `.userDetailsService(userDetailsService)`: Cho Spring Security biết sử dụng userDetailsService được thêm vào để truy xuất chi tiết người dùng để xác thực.
 
     
     `.passwordEncoder(passwordEncoder())`: Đặt PasswordEncoder được sử dụng để băm mật khẩu (được tạo trong phương thức bean passwordEncoder).
